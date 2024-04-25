@@ -12,13 +12,13 @@
               </progress>
             </div>
           </div>
-          <div class="item flex-view">
+          <!-- <div class="item flex-view">
             <div class="label">绑定手机</div>
             <div class="right-box">
               <input class="input-dom" placeholder="请输入手机号">
               <a-button type="link" @click="handleBindMobile()">更换</a-button>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="edit-pwd-box" style="display;">
           <div class="pwd-edit">
@@ -116,7 +116,7 @@ input, textarea {
     color: #152844;
     font-weight: 600;
     font-size: 18px;
-    //line-height: 24px;
+    // line-height: 24px;
     height: 48px;
     margin-bottom: 4px;
     border-bottom: 1px solid #cedce4;

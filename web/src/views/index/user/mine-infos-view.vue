@@ -45,10 +45,10 @@
           <img :src="CommentIconImg">
           <span>我的评论</span>
         </div>
-        <div class="mine-item flex-view" @click="clickMenu('scoreView')">
+        <!-- <div class="mine-item flex-view" @click="clickMenu('scoreView')">
           <img :src="PointIconImage">
           <span>我的积分</span>
-        </div>
+        </div> -->
       </div>
     </div>
 

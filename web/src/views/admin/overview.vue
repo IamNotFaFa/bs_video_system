@@ -9,7 +9,7 @@
 
       <a-row :gutter="[20,20]">
         <a-col :sm="24" :md="24" :lg="12">
-          <a-card title="热门商品排名" style="flex:1;">
+          <a-card title="热门视频排名" style="flex:1;">
             <div style="height: 300px;" ref="barChartDiv"></div>
           </a-card>
         </a-col>
@@ -161,7 +161,7 @@ const initBarChart = () => {
       bottom: '40px'
     },
     title: {
-      text: '热门商品排名',
+      text: '热门视频排名',
       textStyle: {
         color: '#aaa',
         fontStyle: 'normal',

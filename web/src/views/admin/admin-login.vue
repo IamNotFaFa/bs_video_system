@@ -15,10 +15,10 @@
               :rules="data.rules"
               :hideRequiredMark="true"
           >
-            <a-form-item name="username" label="账号" :colon="false">
+            <a-form-item name="username" label="用户名" :colon="false">
               <a-input
                   size="large"
-                  placeholder="请输入登录账号"
+                  placeholder="请输入用户名"
                   v-model:value="data.loginForm.username"
                   @pressEnter="handleSubmit">
                 <a-icon slot="prefix" type="user"/>
@@ -139,19 +139,21 @@ const loginSuccess = () => {
   }
 
   .main-container {
+    background-color: #f1f1f1;
+
     width: 100%;
     height: calc(100vh - 160px);
-    background-image: url('../images/admin-login-bg.jpg');
+    // background-image: url('../images/admin-login-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     .main {
       position: absolute;
-      right: 80px;
+      right: 25%;
       top: 50%;
       display: flex;
-      transform: translate(0, -50%);
+      transform: translate(-50%, -50%);
       border-radius: 8px;
       overflow: hidden;
       -webkit-box-shadow: 2px 2px 6px #aaa;

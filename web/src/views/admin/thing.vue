@@ -129,8 +129,8 @@
               <a-col span="12">
                 <a-form-item label="状态" name="status">
                   <a-select placeholder="请选择" allowClear v-model:value="modal.form.status">
-                    <a-select-option key="0" value="0">上架</a-select-option>
-                    <a-select-option key="1" value="1">下架</a-select-option>
+                    <a-select-option key="0" value="0">上线</a-select-option>
+                    <a-select-option key="1" value="1">下线</a-select-option>
                   </a-select>
                 </a-form-item>
               </a-col>
@@ -166,7 +166,7 @@
       title: '状态',
       dataIndex: 'status',
       key: 'status',
-      customRender: ({ text, record, index, column }) => (text === '0' ? '上架' : '下架'),
+      customRender: ({ text, record, index, column }) => (text === '0' ? '上线' : '下线'),
     },
     {
       title: '简介',

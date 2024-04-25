@@ -61,7 +61,7 @@ const columns = reactive([
     align: 'center'
   },
   {
-    title: '商品名称',
+    title: '视频名称',
     dataIndex: 'title',
     key: 'title',
     align: 'center'

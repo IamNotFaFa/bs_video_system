@@ -34,7 +34,6 @@
 <script setup>
 import {listApi} from '/@/api/notice'
 
-
 let loading = ref(false)
 let msgData = ref([])
 
